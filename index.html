@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>qrotx</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Markazi+Text" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite" />
+  <style type="text/css">
+    @media (min-width: 1000px) {
+      body { width: 800px; }
+    }
+    body {
+      margin-left:  clamp(10px, calc(10px + (40 * (100vw - 1000px) / 500)), 50px);
+      margin-top:   clamp(10px, calc(10px + (40 * (100vw - 1000px) / 500)), 50px);
+      padding-top: 1px;
+      background-color: #eae3d5;
+      color: #000000;
+      font-family: 'Markazi Text', serif;
+      font-size: 1.25rem;
+    }
+    h1 {
+      font-family: 'Special Elite', serif;
+      font-size: 1.75rem;
+      color: #352404;
+    }
+    p { line-height: 1.6; }
+    a:link    { color: #ff1111; }
+    a:visited { color: #ff1111; }
+    a:active  { color: #ff1111; }
+
+    .logo-wrap {
+      margin: 1.5rem 0 0.5rem;
+      width: 100px;
+    }
+    .logo-wrap img {
+      width: 100%;
+      /* Blends the dark background into the warm beige */
+      mix-blend-mode: multiply;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-wrap">
+    <img src="logo.png" alt="qrotx logo" />
+  </div>
+
+  <h1>qrotx</h1>
+
+  <p>Something is coming soon. In the meantime, find us on
+    <a href="https://github.com/qrotx" target="_blank">GitHub</a>.
+  </p>
+
+</body>
+</html>
